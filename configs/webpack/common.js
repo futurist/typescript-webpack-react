@@ -94,6 +94,7 @@ module.exports = {
         inject: true,
         template: resolve(__dirname, '../../public/index.ejs'),
         templateParameters: {
+          apiEndpoint: 'http://8.8.8.8:8000',
           title: '',
           description: '',
           env: 'dev',

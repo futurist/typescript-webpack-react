@@ -1,1 +1,1 @@
-export const {prefix} = window.CONFIG
+export const {prefix, apiEndpoint} = window.CONFIG

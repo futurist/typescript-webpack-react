@@ -6,30 +6,25 @@ export default {
   },
   actions: {
     getMindMapList: {
-      // url: `${apiEndpoint}/jsonapi/form_mindmap`,
-      url: `${prefix}/api/proxy/mindmap/jsonapi/form_mindmap`
+      url: `${apiEndpoint}/jsonapi/form_mindmap`,
     },
     getMindMap: {
-      // url: `${apiEndpoint}/jsonapi/form_mindmap/:id`,
-      url: `${prefix}/api/proxy/mindmap/jsonapi/form_mindmap/:id`
+      url: `${apiEndpoint}/jsonapi/form_mindmap/:id`,
     },
     createMindMap: {
-      // url: `${apiEndpoint}/jsonapi/form_mindmap`,
-      url: `${prefix}/api/proxy/mindmap/jsonapi/form_mindmap`,
+      url: `${apiEndpoint}/jsonapi/form_mindmap`,
       method: 'POST'
     },
     deleteMindMap: {
-      // url: `${apiEndpoint}/jsonapi/form_mindmap/:id`,
-      url: `${prefix}/api/proxy/mindmap/jsonapi/form_mindmap/:id`,
+      url: `${apiEndpoint}/jsonapi/form_mindmap/:id`,
       method: 'DELETE'
     },
     updateMindMap: {
-      // url: `${apiEndpoint}/jsonapi/form_mindmap/:id`,
-      url: `${prefix}/api/proxy/mindmap/jsonapi/form_mindmap/:id`,
+      url: `${apiEndpoint}/jsonapi/form_mindmap/:id`,
       method: 'PATCH'
     },
     dingTalk: {
-      url: `${prefix}/api/dingTalk`,
+      url: `${apiEndpoint}/api/dingTalk`,
       method: 'POST'
     }
 

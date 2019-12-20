@@ -1,4 +1,4 @@
-import {prefix} from '../const'
+import {prefix, apiEndpoint} from '../const'
 
 export default {
     name: 'login',
@@ -7,11 +7,11 @@ export default {
     },
     actions: {
         // 用户信息
-        getUserInfo: { url: `${prefix}/api/login`, },
-        logout: { url: `${prefix}/api/logout`, },
+        getUserInfo: { url: `${apiEndpoint}/api/login`, },
+        logout: { url: `${apiEndpoint}/api/logout`, },
         // 是否登录
-        isLogin: { url: `${prefix}/api/isLogin` },
+        isLogin: { url: `${apiEndpoint}/api/isLogin` },
         // 成员列表
-        getMemberList: { url: `${prefix}/api/memberList` }
+        getMemberList: { url: `${apiEndpoint}/api/memberList` }
     }
 }
