@@ -7,7 +7,10 @@ function App (props: any){
             return data
         })
     }, [])
-    return <div>Hello 首页</div>
+    return <div>
+        Hello 首页
+        <button onClick={e=>{props.history.push('/app2')}} >跳转到app2</button>
+    </div>
 }
 
 export default App
