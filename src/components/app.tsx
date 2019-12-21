@@ -7,7 +7,7 @@ function App (props: any){
             return data
         })
     }, [])
-    return <div>Hello sdf</div>
+    return <div>Hello 首页</div>
 }
 
 export default App
